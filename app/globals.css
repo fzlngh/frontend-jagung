@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f6f2e9;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(31, 42, 26, 0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+  color: #1f2a1a;
+}
+
+::selection {
+  background: #e8b23d;
+  color: #1f2a1a;
+}
+
+.card-index {
+  border: 1px solid #d8cfbc;
+  background: #fdfbf5;
+  box-shadow: 3px 3px 0 rgba(31, 42, 26, 0.08);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #3c6e47;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
