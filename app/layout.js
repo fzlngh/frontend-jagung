@@ -24,7 +24,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: "Pindai Daun Jagung — Deteksi Penyakit",
+  title: "Pindai Daun Jagung",
   description:
     "Pindai daun jagung untuk mendeteksi Sehat, Gray Leaf Spot, Common Rust, atau Blight menggunakan model Edge Impulse.",
 };
